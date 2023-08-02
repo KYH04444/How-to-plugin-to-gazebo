@@ -9,4 +9,4 @@ Models configuration (based on PX4)
 6. Add the airframe name (car) to the file src/modules/simulation/simulator_mavlink/sitl_targets_gazebo.cmake in the command that starts with set(models … as-well as the world file grass_pad to the line starting with set(worlds...
 7. Add the models file to .gazebo/models
 
-   
+models, world는 launch file의 include를 통해 plugin
